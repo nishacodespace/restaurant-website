@@ -1,6 +1,7 @@
 import Navbar from "../Navbar/Navbar";
 import Heading from "../Heading"
 import './Home.css'
+import {homeImages} from "../constants/images.js";
 
 export default function Home() {
     return(
@@ -16,7 +17,7 @@ export default function Home() {
         </p>
          </div>
         <div className="app__home-img">
-        <img src="../../assets/homepicture.jpg" alt="spoon"/>
+        <img src={homeImages.homePicture} alt="homeImage"/>
         </div>
     </div>
     </div>
