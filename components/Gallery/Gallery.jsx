@@ -1,14 +1,15 @@
 import {FaChevronLeft, FaChevronRight} from 'react-icons/fa';
 import {useState, useEffect} from 'react';
+import {galleryImages} from "../constants/images";
 import './Gallery.css';
 
 export default function Gallery() {
     const images = [
-        "/assets/i1.jpg",
-        "/assets/i2.jpg",
-        "/assets/i3.jpg",
-        "/assets/i4.jpg",
-        "/assets/i5.jpg",
+        galleryImages.i1,
+        galleryImages.i2,
+        galleryImages.i3,
+       galleryImages.i4,
+        galleryImages.i5,
     ]
     const[index,setIndex]=useState(0);
 
