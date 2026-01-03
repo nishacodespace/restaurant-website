@@ -1,0 +1,55 @@
+.app__aboutus{
+    padding:2rem;
+}
+.app__aboutus-heading{
+    display:block;
+    align-content: center;
+}
+.aboutus-title{
+    margin-top:0;
+    position:relative;
+    display:block;
+    align-content: center;
+    text-align: center;
+    color:#cdb587;
+    font-size:2.8rem;
+    font-weight:normal;
+    margin-bottom:0;
+}
+.aboutus-subtext{
+    margin-top:11px;
+    position:relative;
+    display:block;
+    align-content: center;
+    text-align: center;
+    color:white;
+    font-size:1.5rem;
+    font-style: italic;
+}
+
+.aboutus-description{
+    margin:0.3rem auto 10px;
+    display:block;
+    width:60%;
+    text-align:center;
+}
+.aboutus-description-text{
+    color:#cdb587;
+    line-height: 1.6;
+    text-align: center;
+}
+.app__aboutus-images{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:15px;
+}
+.image1,
+.image2,
+.image3{
+    display:flex;
+    justify-content: center;
+    width:270px;
+    height:400px;
+    object-fit:cover;
+}

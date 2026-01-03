@@ -1,0 +1,67 @@
+.app__footer {
+    background-color: #2b0808;
+    padding: 3rem 2rem 1.5rem;
+    color: white;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.footer-column {
+    min-width: 180px;
+}
+
+.footer-column h4 {
+    color: #cdb587;
+    font-weight: normal;
+    margin-bottom: 1rem;
+    letter-spacing: 1px;
+}
+
+.footer-column p {
+    margin: 0.4rem 0;
+    cursor: pointer;
+    font-size: 0.95rem;
+}
+
+.footer-column p:hover {
+    color: #cdb587;
+}
+
+.newsletter p {
+    max-width: 260px;
+    line-height: 1.5;
+}
+
+.newsletter-input {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    border: 1px solid #cdb587;
+    padding: 8px 12px;
+}
+
+.newsletter-input input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    color: white;
+    outline: none;
+}
+
+.newsletter-input span {
+    color: #cdb587;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.footer-bottom {
+    margin-top: 2.5rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #aaa;
+}
