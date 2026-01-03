@@ -3,6 +3,7 @@ import './Navbar.css';
 import {GiHamburgerMenu} from "react-icons/gi";
 import {MdOutlineRestaurantMenu} from "react-icons/md";
 import {useState} from "react";
+import {navbarLogo} from "../constants/images.js";
 
 export default function Navbar() {
     const[toggleMenu, setToggleMenu] = useState(false);
@@ -10,7 +11,7 @@ export default function Navbar() {
     return (
         <nav className="app__navbar">
             <div className="app__navbar-logo">
-            <img  src="/assets/navbar-logo.jpg"></img>
+            <img  src={navbarLogo} alt="navbarLogo"></img>
              </div>
             <div className="app__navbar-links">
             <ul>
