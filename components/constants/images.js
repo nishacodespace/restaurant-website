@@ -3,9 +3,9 @@ import i2 from "/assets/i2.jpg";
 import i3 from "/assets/i3.jpg";
 import i4 from "/assets/i4.jpg";
 import i5 from "/assets/i5.jpg";
-import interior2 from "/assets/interior2.jpg";
-import interior3 from "/assets/interior3.jpg";
-import interior1 from "/assets/interior1.jpg";
+import image2 from "/assets/interior2.jpg";
+import image3 from "/assets/interior3.jpg";
+import image1 from "/assets/interior1.jpg";
 import homePicture from "/assets/homepicture.jpg";
 import spoon from "/assets/spoon.png";
 import navbarLogo from "/assets/navbar-logo.jpg";
@@ -21,12 +21,12 @@ const galleryImages={
 };
 
 const aboutImages={
-    interior1,
-    interior2,
-    interior3
+    image1,
+    image2,
+    image3
 };
 const homeImages={
     homePicture,
     navbarLogo
 };
-export { galleryImages, aboutImages, homeImages,spoon,chef };
+export { galleryImages, aboutImages, homeImages,spoon,chef,navbarLogo };
