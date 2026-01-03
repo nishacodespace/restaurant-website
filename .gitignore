@@ -2,7 +2,7 @@ node_modules/
 
 dist/
 build/
-idea/
+.idea/
 
 .env
 .env.local
@@ -30,6 +30,6 @@ httpRequests/
 dataSources/
 
 *.iml
-workspace.xml
+.idea/workspace.xml
 dataSources.local.xml
 
