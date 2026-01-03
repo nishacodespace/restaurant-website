@@ -1,3 +1,4 @@
+import {spoon} from "./constants/images.js";
 const Heading=({title})=>{
     return(
         <div style={{
@@ -11,7 +12,7 @@ const Heading=({title})=>{
                 padding:'10px',
                 marginBottom:'1.5rem',
             }}>{title}</p>
-            <img src="../assets/spoon.png" style={{padding:'10px'}} alt="spoon" />
+            <img src={spoon} style={{padding:'10px'}} alt="spoon" />
         </div>
     )
 }
