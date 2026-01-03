@@ -1,5 +1,6 @@
 import './Chef.css';
 import { LuChefHat } from "react-icons/lu";
+import {chef} from "../constants/images.js";
 export default function Chef() {
     return (
         <div className="app__chef">
@@ -11,7 +12,7 @@ export default function Chef() {
                 <p className="app__chef-subtitle">The visionary behind our signature culinary elegance </p>
         <div className="app__chef-about">
             <div className="app__chef-imgContainer">
-                <img className="app__chef-img" src="/assets/chef.jpg" alt="Chef" />
+                <img className="app__chef-img" src={chef} alt="Chef" />
             </div>
                 <div className="app__chef-img-text">
                    <p> <span style={{color:'white'}}>Chef Vikas</span> is the heart of our kitchen, bringing with him a deep love for India’s royal culinary traditions.
