@@ -1,5 +1,6 @@
 import './About.css';
 import Footer from "../Footer/Footer";
+import {aboutImages} from "../constants/images.js";
 
 export default function About () {
     return(
@@ -16,9 +17,9 @@ export default function About () {
                    </p>
                </div>
                <div className="app__aboutus-images">
-                   <img className="image1" src="/assets/interior1.jpg"/>
-                   <img className="image2" src="/assets/interior2.jpg"/>
-                   <img className="image3" src="/assets/interior3.jpg"/>
+                   <img className="image1" alt="img" src={aboutImages.image1}/>
+                   <img className="image2" alt="img" src={aboutImages.image2}/>
+                   <img className="image3" alt="img" src={aboutImages.image3}/>
                </div>
            </div>
        </div>
